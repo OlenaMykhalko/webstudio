@@ -31,13 +31,13 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 .list {
   list-style: none;
 }
 a {
   text-decoration: none;
 }
+
 /* Logo */
 .logo {
   color: var(--dark-text-color);
@@ -54,7 +54,6 @@ a {
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,6 +66,7 @@ a {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
 /* Site contacts */
 .site-contacts .link {
   color: var(--primary-text-color);
@@ -84,7 +84,6 @@ a {
 .hero-title {
   color: var(--white-text-color);
   background-color: #2f303a;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -92,10 +91,10 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 /* Titles */
 .section-title {
   color: var(--title-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -124,14 +123,15 @@ a {
   background-color: var(--accent-color);
   border-color: transparent;
 }
+
 /* Features */
 .section-features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-
   text-transform: uppercase;
 }
+
 /* team */
 .name {
   font-style: normal;
@@ -145,7 +145,6 @@ a {
 }
 
 /* Portfolio*/
-
 .section-prodject-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -156,10 +155,10 @@ a {
 .section-prodject-text {
   color: var(--primary-text-color);
 }
+
 /* Footer */
 .footer {
   background-color: var(--footer-bg-color);
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
