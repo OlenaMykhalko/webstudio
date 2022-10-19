@@ -123,6 +123,9 @@ a {
   background-color: var(--accent-color);
   border-color: transparent;
 }
+.button {
+  cursor: pointer;
+}
 
 /* Features */
 .section-features-title {
@@ -166,10 +169,22 @@ a {
 .footer .logo {
   color: var(--white-text-color);
 }
-.address {
+.address-address {
   color: var(--white-text-color);
+}
+.address-address:hover,
+.address-address:focus {
+  color: var(--accent-color);
 }
 .address-mail,
 .address-tel {
   color: var(--footer-text-color);
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--accent-color);
+}
+.address-tel:hover, 
+.address-tel:focus {
+  color: var(--accent-color);
 }
